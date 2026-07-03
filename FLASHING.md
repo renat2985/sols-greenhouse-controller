@@ -1,5 +1,7 @@
 # 🚀 Flashing Firmware
 
+Language: English | [Русский](FLASHING.ru.md)
+
 ## ✨ Recommended Method
 
 Open the web installer:

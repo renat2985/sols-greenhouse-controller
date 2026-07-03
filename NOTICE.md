@@ -1,5 +1,7 @@
 # 📣 Notice
 
+Language: English | [Русский](NOTICE.ru.md)
+
 Sols Greenhouse Controller firmware source code is private.
 
 This repository contains:

@@ -1,5 +1,7 @@
 # 🧾 Configuration File
 
+Language: English | [Русский](CONFIG.ru.md)
+
 Create a file named:
 
 ```text
@@ -20,7 +22,7 @@ The firmware reads:
 - ⚡ relay mode
 - ☁️ cloud connection settings
 
-See [config.example.txt](config.example.txt).
+See [config.example.txt](config.example.txt) or [config.example.ru.txt](config.example.ru.txt).
 
 ## 📡 Wi-Fi
 

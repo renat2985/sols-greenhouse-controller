@@ -1,5 +1,7 @@
 # 🛠️ PCB Manufacturing Files
 
+Language: English | [Русский](PCB.ru.md)
+
 This repository includes:
 
 ```text

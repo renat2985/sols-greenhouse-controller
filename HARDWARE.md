@@ -1,5 +1,7 @@
 # 🧩 Hardware And Wiring
 
+Language: English | [Русский](HARDWARE.ru.md)
+
 ## 🖥️ Main Board
 
 This project is based on the `JC3248W535` ESP32-S3 display board.

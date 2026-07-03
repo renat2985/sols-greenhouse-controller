@@ -1,5 +1,7 @@
 # 🌱 Sols Greenhouse Controller
 
+Language: English | [Русский](README.ru.md)
+
 Smart greenhouse controller based on the JC3248W535 ESP32-S3 touch display.
 
 Turn a small ESP32-S3 touchscreen into a greenhouse dashboard: climate, watering, ventilation, cloud charts and AI-friendly data in one compact device.

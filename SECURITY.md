@@ -1,5 +1,7 @@
 # 🔒 Security Notes
 
+Language: English | [Русский](SECURITY.ru.md)
+
 This public package does not include Arduino/ESP32 firmware source code.
 
 Do not commit:
