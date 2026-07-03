@@ -1,0 +1,28 @@
+# Keep firmware source private.
+*.ino
+*.h
+*.hpp
+*.c
+*.cc
+*.cpp
+*.S
+*.ino.cpp
+
+# Local secrets and user configs.
+config.txt
+.env
+*.local
+secrets/
+
+# OS/editor files.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build output.
+build/
+dist/
+*.elf
+*.map
+*.hex

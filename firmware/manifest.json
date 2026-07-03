@@ -1,0 +1,32 @@
+{
+  "version": "2026.07.03-11",
+  "board": "JC3248W535 ESP32-S3 Greenhouse UI",
+  "description": "Sols.lv greenhouse controller firmware for JC3248W535C. Built for ESP32S3 Dev Module, No OTA 2MB APP/2MB SPIFFS, OPI PSRAM.",
+  "baudRate": 921600,
+  "flashMode": "dio",
+  "flashFreq": "80m",
+  "flashSize": "16MB",
+  "eraseAll": false,
+  "files": [
+    {
+      "name": "Bootloader",
+      "address": "0x0",
+      "path": "/firmware/greenhouse.bootloader.bin"
+    },
+    {
+      "name": "Partitions",
+      "address": "0x8000",
+      "path": "/firmware/greenhouse.partitions.bin"
+    },
+    {
+      "name": "Boot app",
+      "address": "0xe000",
+      "path": "/firmware/boot_app0.bin"
+    },
+    {
+      "name": "Application",
+      "address": "0x10000",
+      "path": "/firmware/greenhouse.app.bin"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+# Sols Greenhouse Controller config.txt
+# Failam jabut MicroSD kartes saknes mape: /config.txt
+# Rindas ar # ir komentari.
+
+# Wi-Fi routera nosaukums un parole.
+ssid=YourRouterName
+password=YourRouterPassword
+
+# Ekrana spilgtums no 0 lidz 255.
+brightness=180
+
+# Ierices nosaukums cloud panelim.
+device=Greenhouse
+
+# Cloud datu sutisana uz sols.lv.
+cloud_enabled=true
+cloud_url=http://sols.lv
+
+# Publiskais links klienta panelim.
+# Ja atstaj tukshu, firmware izveidos garu tokenu no ESP32 ID.
+cloud_public_token=
+
+# Privatais API tokens datu sutisanai.
+# Nepublicet GitHub un nesutit svesiem cilvekiem.
+# Ja atstaj tukshu, firmware izveidos garu tokenu no ESP32 ID.
+cloud_api_token=
+
+# Cik biezi sutit datus uz serveri sekundes.
+# Minimalais drosais limits ir 30 sekundes.
+cloud_interval_seconds=300
+
+# Merka temperatura siltumnica.
+target_temp_c=26
+
+# Histereze, lai ventilatori neslegtos parak biezi.
+temp_hysteresis_c=1
+
+# Maksimalais mitrums procentos.
+# Ja ieksha ir parak mitrs un ara ir sausaks, ieslegs izpludi.
+humidity_max=80
+
+# Minimalais mitrums procentos. Rezervets nakotnes logikai.
+humidity_min=45
+
+# Augsnes mitruma sensors.
+# false = sensors nav pieslegts, laistisana notiek pec grafika.
+# true = laistisana pec augsnes mitruma.
+soil_sensor_enabled=false
+
+# Apgriezt augsnes sensora procentus, ja sensors strada otradi.
+soil_sensor_invert=false
+
+# Sausa/mitra sensora kalibracija ADC vertibas.
+soil_dry_raw=3200
+soil_wet_raw=1300
+
+# Pie kada augsnes mitruma ieslegt laistishanu.
+soil_moisture_min=45
+
+# Velamais augsnes mitrums. Tiek radits klientam.
+soil_moisture_target=60
+
+# Cik sekundes turet udens releju ieslegtu.
+watering_seconds=15
+
+# Pauze starp laistishanam, ja izmanto augsnes sensoru.
+soil_watering_cooldown_min=120
+
+# Laistisana pec grafika, ja augsnes sensors nav pieslegts.
+watering_schedule_enabled=true
+
+# Laistishanas intervals minutes.
+# 720 = ik pec 12 stundam.
+watering_interval_min=720
+
+# Vairums releju modulu ir active-low.
+relay_active_low=true
+
+# Apgriezt gaismas sensora procentus, ja vajag.
+light_invert=false
