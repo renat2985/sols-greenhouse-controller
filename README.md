@@ -4,7 +4,9 @@ Smart greenhouse controller based on the JC3248W535 ESP32-S3 touch display.
 
 This repository is intended for public documentation, wiring notes and firmware binaries. The Arduino/ESP32 source code is not included.
 
-![Greenhouse controller on wall](images/greenhouse-device-wall-hero.jpg)
+<p align="center">
+  <img src="images/greenhouse-device-wall-hero.jpg" alt="Sols Greenhouse Controller mounted on a wall" width="520">
+</p>
 
 ## What It Does
 
