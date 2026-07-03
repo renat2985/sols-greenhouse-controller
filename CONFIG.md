@@ -1,4 +1,4 @@
-# Configuration File
+# 🧾 Configuration File
 
 Create a file named:
 
@@ -12,24 +12,24 @@ Lines starting with `#` are comments.
 
 The firmware reads:
 
-- Wi-Fi credentials
-- screen brightness
-- climate thresholds
-- watering schedule
-- soil sensor settings
-- relay mode
-- cloud connection settings
+- 📡 Wi-Fi credentials
+- 💡 screen brightness
+- 🌡️ climate thresholds
+- 💧 watering schedule
+- 🌱 soil sensor settings
+- ⚡ relay mode
+- ☁️ cloud connection settings
 
 See [config.example.txt](config.example.txt).
 
-## Wi-Fi
+## 📡 Wi-Fi
 
 ```text
 ssid=YourRouterName
 password=YourRouterPassword
 ```
 
-## Cloud
+## ☁️ Cloud
 
 ```text
 cloud_enabled=true
@@ -40,7 +40,7 @@ If tokens are empty, firmware creates long tokens from the ESP32 device ID.
 
 Do not share your private `cloud_api_token`.
 
-## Watering Modes
+## 💧 Watering Modes
 
 Without soil sensor:
 
@@ -59,7 +59,7 @@ soil_moisture_target=60
 soil_watering_cooldown_min=120
 ```
 
-## Relays
+## ⚡ Relays
 
 Most relay boards are active-low:
 

@@ -1,28 +1,28 @@
-# Flashing Firmware
+# 🚀 Flashing Firmware
 
-## Recommended Method
+## ✨ Recommended Method
 
 Open the web installer:
 
-[https://sols.lv/upgrade](https://sols.lv/upgrade)
+👉 [https://sols.lv/upgrade](https://sols.lv/upgrade)
 
 Recommended browser:
 
-- Chrome
-- Edge
+- ✅ Chrome
+- ✅ Edge
 
 Safari usually does not support WebSerial.
 
 Steps:
 
-1. Connect the display to the computer with USB.
-2. Open the installer.
-3. Select the serial port.
-4. The installer starts flashing automatically.
-5. Do not disconnect USB during writing.
-6. When flashing is complete, disconnect and reconnect power if the device does not restart automatically.
+1. 🔌 Connect the display to the computer with USB.
+2. 🌐 Open the installer.
+3. 🧭 Select the serial port.
+4. ⚡ The installer starts flashing automatically.
+5. ⛔ Do not disconnect USB during writing.
+6. ✅ When flashing is complete, disconnect and reconnect power if the device does not restart automatically.
 
-## Manual Flashing
+## 🧰 Manual Flashing
 
 Manual flashing is only for advanced users.
 
@@ -43,7 +43,7 @@ Settings:
 - PSRAM: OPI PSRAM
 - Partition: No OTA, 2 MB APP / 2 MB SPIFFS
 
-## Checksums
+## 🔐 Checksums
 
 SHA-256:
 

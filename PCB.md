@@ -1,4 +1,4 @@
-# PCB Manufacturing Files
+# 🛠️ PCB Manufacturing Files
 
 This repository includes:
 
@@ -8,7 +8,7 @@ Gerber.zip
 
 The archive contains Gerber and drill files for the relay/sensor add-on board.
 
-## What Is Included
+## 📦 What Is Included
 
 The archive includes:
 
@@ -19,7 +19,7 @@ The archive includes:
 - drill files,
 - assembly/document layers.
 
-## How To Order
+## 🛒 How To Order
 
 Upload `Gerber.zip` to a PCB manufacturer that accepts standard Gerber files.
 
@@ -33,13 +33,13 @@ Common services:
 
 Typical order flow:
 
-1. Upload `Gerber.zip`.
-2. Preview the board in the manufacturer's Gerber viewer.
-3. Check board size, outline and holes.
-4. Choose PCB color and quantity.
-5. Order only the bare PCB unless you also have a BOM and assembly files.
+1. 📤 Upload `Gerber.zip`.
+2. 👀 Preview the board in the manufacturer's Gerber viewer.
+3. 📐 Check board size, outline and holes.
+4. 🎨 Choose PCB color and quantity.
+5. ✅ Order only the bare PCB unless you also have a BOM and assembly files.
 
-## Important Notes
+## 🧪 Important Notes
 
 This file is for PCB manufacturing only. It does not include a full assembly/BOM guide yet.
 
@@ -52,7 +52,7 @@ Before ordering many boards:
 - verify sensor connector labels,
 - test one assembled board with low voltage first.
 
-## Mains Voltage Warning
+## ⚠️ Mains Voltage Warning
 
 The board may be used to control relays connected to 220V/230V AC loads such as fans or valves.
 
@@ -67,7 +67,7 @@ Mains voltage is dangerous. Assembly and installation must be done by a qualifie
 
 Do not touch or modify mains wiring while powered.
 
-## Repository Policy
+## 🔒 Repository Policy
 
 PCB manufacturing files are public so users can order their own relay/sensor board.
 
