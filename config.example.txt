@@ -42,6 +42,11 @@ humidity_max=80
 # Minimalais mitrums procentos. Rezervets nakotnes logikai.
 humidity_min=45
 
+# Kuru zonu automatika kontrole.
+# inside = sensors uz ekrana/kontroliera plates.
+# outside = vados pieslegtais attalinatais sensors, piemeram pagrabs.
+control_zone=inside
+
 # Augsnes mitruma sensors.
 # false = sensors nav pieslegts, laistisana notiek pec grafika.
 # true = laistisana pec augsnes mitruma.

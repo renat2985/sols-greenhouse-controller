@@ -42,6 +42,31 @@ If tokens are empty, firmware creates long tokens from the ESP32 device ID.
 
 Do not share your private `cloud_api_token`.
 
+## 🌡️ Climate Control Zone
+
+By default the automation controls the sensor on the controller/display board:
+
+```text
+control_zone=inside
+```
+
+Use the remote wired sensor as the controlled zone when the display stays in one place and the cabled sensor is placed in another space, for example a basement or cellar:
+
+```text
+control_zone=outside
+```
+
+In this mode the fan turns on when the `outside` sensor is too hot or too humid and the `inside` air is cooler or drier.
+
+Basement drying example:
+
+```text
+control_zone=outside
+target_temp_c=45
+temp_hysteresis_c=5
+humidity_max=70
+```
+
 ## 💧 Watering Modes
 
 Without soil sensor:
