@@ -20,11 +20,26 @@ This repository contains public documentation, wiring notes, PCB Gerbers and fir
 - 📱 Shows a QR code for cloud dashboard and local setup.
 - ⚡ Controls three relays:
   - exhaust fan,
-  - intake fan,
+  - intake fan or seedling grow light,
   - water valve or pump.
 - 🌡️ Compares indoor and outdoor temperature/humidity.
 - 💧 Supports watering by schedule or soil moisture sensor.
+- ☀️ Can switch grow light by light sensor and schedule.
 - 📈 Logs sensor and relay data to MicroSD.
+
+## 🌱 Seedlings And Grow Light
+
+The controller can be used not only in a greenhouse with planted crops, but also for seedlings at home, in a garage or on a small growing shelf. Relay 2 can be configured as a grow light:
+
+```text
+relay2_mode=light
+grow_light_schedule_enabled=true
+grow_light_start_hour=6
+grow_light_end_hour=22
+grow_light_min_percent=55
+```
+
+In this mode the device watches the light sensor and switches the lamp when there is not enough light and the current time is inside the allowed schedule. This is useful for tomato, cucumber, pepper, eggplant and herb seedlings before transplanting.
 
 ## 🚀 Recommended Installer
 
@@ -52,7 +67,7 @@ Sensors:
 
 Outputs:
 
-- ⚡ 3 relay channels for exhaust, intake and water
+- ⚡ 3 relay channels for exhaust, intake/grow light and water
 
 See [HARDWARE.md](HARDWARE.md) for wiring.
 

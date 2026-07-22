@@ -102,3 +102,24 @@ relay_active_low=true
 ```text
 relay_active_low=false
 ```
+
+Второе реле можно использовать двумя способами:
+
+```text
+relay2_mode=intake
+```
+
+`intake` означает приточный вентилятор. Он помогает загонять воздух, когда автоматика считает это полезным.
+
+Для рассады или досветки растений второе реле можно переключить на лампу:
+
+```text
+relay2_mode=light
+grow_light_schedule_enabled=true
+grow_light_start_hour=6
+grow_light_end_hour=22
+grow_light_min_percent=55
+grow_light_hysteresis_percent=8
+```
+
+В этом режиме лампа включается только в разрешенное время и только когда датчик света показывает меньше `grow_light_min_percent`. Гистерезис не дает реле щелкать слишком часто около границы.

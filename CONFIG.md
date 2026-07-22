@@ -99,3 +99,24 @@ If relay logic is inverted, change it to:
 ```text
 relay_active_low=false
 ```
+
+Relay 2 can work in two modes:
+
+```text
+relay2_mode=intake
+```
+
+`intake` means intake fan. It helps bring air in when the automation considers it useful.
+
+For seedlings or plant grow lights, relay 2 can control a lamp:
+
+```text
+relay2_mode=light
+grow_light_schedule_enabled=true
+grow_light_start_hour=6
+grow_light_end_hour=22
+grow_light_min_percent=55
+grow_light_hysteresis_percent=8
+```
+
+In this mode the lamp turns on only during the allowed time window and only when the light sensor is below `grow_light_min_percent`. The hysteresis prevents frequent relay switching near the threshold.

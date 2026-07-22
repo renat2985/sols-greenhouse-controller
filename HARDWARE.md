@@ -16,7 +16,7 @@ Use a stable external power supply for normal work. During testing we noticed th
 | ---: | ---: | --- |
 | P2-1 | IO5 | Spare. Avoid for relay output because the schematic uses it for battery sense. |
 | P2-2 | IO6 | Exhaust fan relay |
-| P2-3 | IO7 | Intake fan relay |
+| P2-3 | IO7 | Intake fan relay or seedling grow light |
 | P2-4 | IO15 | Water valve / pump relay |
 | P2-5 | IO16 | Spare |
 | P2-6 | IO46 | Avoid for relay outputs |
@@ -69,7 +69,7 @@ Use a 3-channel relay module or three separate relay modules.
 | GPIO | Relay | Example load |
 | ---: | --- | --- |
 | IO6 | Exhaust relay | Fan pushing air out |
-| IO7 | Intake relay | Fan pulling air in |
+| IO7 | Intake / grow light relay | Intake fan or seedling lamp when `relay2_mode=light` |
 | IO15 | Water relay | Water valve or pump |
 
 Default relay mode is active-low:

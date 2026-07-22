@@ -81,5 +81,18 @@ watering_interval_min=720
 # Большинство модулей реле работают как active-low.
 relay_active_low=true
 
+# Режим второго реле.
+# intake = приточный вентилятор.
+# light = подсветка для рассады/растений по датчику света.
+relay2_mode=intake
+
+# Настройки подсветки, если relay2_mode=light.
+# Часы указываются по UTC времени.
+grow_light_schedule_enabled=true
+grow_light_start_hour=6
+grow_light_end_hour=22
+grow_light_min_percent=55
+grow_light_hysteresis_percent=8
+
 # Инвертировать проценты датчика света, если нужно.
 light_invert=false

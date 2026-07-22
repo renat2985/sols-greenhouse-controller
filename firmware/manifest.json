@@ -1,9 +1,9 @@
 {
-  "version": "2026.07.16-03",
+  "version": "2026.07.22-02",
   "board": "JC3248W535 ESP32-S3 Greenhouse UI",
-  "description": "Sols.lv greenhouse controller firmware for JC3248W535C. Built for ESP32S3 Dev Module, No OTA 2MB APP/2MB SPIFFS, OPI PSRAM.",
+  "description": "Sols.lv greenhouse controller firmware for JC3248W535C. Adds relay 2 grow-light mode. Built for ESP32S3 Dev Module, No OTA 2MB APP/2MB SPIFFS, OPI PSRAM.",
   "baudRate": 921600,
-  "flashMode": "dio",
+  "flashMode": "qio",
   "flashFreq": "80m",
   "flashSize": "16MB",
   "eraseAll": false,
